@@ -1,0 +1,63 @@
+C:\Users\Admin\PycharmProjects\pythonProject3\.venv\Scripts\python.exe C:\Users\Admin\PycharmProjects\pythonProject3\Task3.py 
+==================================================
+COUNTRY-WISE NETFLIX CONTENT ANALYSIS
+==================================================
+
+Dataset shape: (8790, 10)
+
+First five records:
+  show_id     type  ...  duration                                          listed_in
+0      s1    Movie  ...    90 min                                      Documentaries
+1      s3  TV Show  ...  1 Season  Crime TV Shows, International TV Shows, TV Act...
+2      s6  TV Show  ...  1 Season                 TV Dramas, TV Horror, TV Mysteries
+3     s14    Movie  ...    91 min                 Children & Family Movies, Comedies
+4      s8    Movie  ...   125 min   Dramas, Independent Movies, International Movies
+
+[5 rows x 10 columns]
+
+Top 10 Countries by Netflix Content:
+       Country  Content_Count
+ United States           3240
+         India           1057
+United Kingdom            638
+      Pakistan            421
+     Not Given            287
+        Canada            271
+         Japan            259
+   South Korea            214
+        France            213
+         Spain            182
+
+Content Type by Country:
+type        Movie  TV Show
+country                   
+Argentina      56       20
+Australia      61       53
+Austria         8        1
+Bangladesh      3        0
+Belarus         0        1
+Belgium         9        9
+Brazil         60       28
+Bulgaria        5        0
+Cambodia        2        0
+Cameroon        1        0
+
+Overall Content Type Distribution:
+type
+Movie      6126
+TV Show    2664
+Name: count, dtype: int64
+
+Project Summary:
+                          Metric  Value
+           Total Dataset Records   8790
+Records with Country Information   8790
+             Number of Countries     86
+     Total Title-Country Records   8790
+                    Total Movies   6126
+                  Total TV Shows   2664
+
+Analysis completed successfully!
+Check the 'outputs' folder for charts and CSV reports.
+
+Process finished with exit code 0
