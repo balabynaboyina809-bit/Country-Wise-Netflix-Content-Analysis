@@ -6,7 +6,7 @@ This project analyzes Netflix titles by country using the provided CSV dataset. 
 
 ## Files
 - `netflix_country_analysis.py` — analysis script.
-- `Dataset(1).csv` — input dataset supplied for this project.
+- `Dataset.csv` — input dataset supplied for this project.
 - `outputs/content_by_country.csv` — title-country record count for each country.
 - `outputs/content_by_country_and_type.csv` — counts by country and content type.
 - `outputs/summary.csv` — high-level dataset summary.
